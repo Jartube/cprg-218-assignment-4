@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Joke of the Day</title>
+</head>
+<body>
+    <script src="javascrip.js"></script>
+
+    <h1 id="title-single">Joke of the Day 🌞</h1>
+    <p id="joke">Loading joke...</p>
+    <br>
+    <button onclick="joke('Programming')">🖥️Programming</button>
+    <button onclick="joke('Misc')">🎶Misc</button>
+    <button onclick="joke('Pun')">😂Pun</button>
+    <button onclick="joke('Spooky')">👻Spooky</button>
+    <button onclick="joke('Christmas')">☃️Christmas</button>
+
+    <br><br>
+
+    <h1 id="title-two">Two-Part Joke of the Day 🌞</h1>
+    <p id="two">Loading joke...</p>
+    
+    <br>
+    <button onclick="two('Programming')">🖥️Programming</button>
+    <button onclick="two('Misc')">🎶Misc</button>
+    <button onclick="two('Pun')">😂Pun</button>
+    <button onclick="two('Spooky')">👻Spooky</button>
+    <button onclick="two('Christmas')">☃️Christmas</button>
+
+
+    <br><br>
+
+    <h1>Single Part Pun 😂</h1>
+    <p id="pun-joke">Loading pun joke...</p>
+    <br>
+
+    <!-- Botones para cambiar la categoría del chiste -->
+    <button onclick="wordQuestion('Programming')">🖥️ Programming</button>
+    <button onclick="wordQuestion('Misc')">🎶 Misc</button>
+    <button onclick="wordQuestion('Pun')">😂 Pun</button>
+    <button onclick="wordQuestion('Spooky')">👻 Spooky</button>
+    <button onclick="wordQuestion('Christmas')">☃️ Christmas</button>
+
+
+<br><br>
+
+
+<h1 id="joke-title">Two-Part Spooky Joke day 🌞</h1>
+<p id="joke-container">Loading joke...</p>
+
+<br>
+<button onclick="fetchTwoPartJoke('Programming')">🖥️Programming</button>
+<button onclick="fetchTwoPartJoke('Misc')">🎶Misc</button>
+<button onclick="fetchTwoPartJoke('Pun')">😂Pun</button>
+<button onclick="fetchTwoPartJoke('Spooky')">👻Spooky</button>
+<button onclick="fetchTwoPartJoke('Christmas')">☃️Christmas</button>
+
+</body>
+</html>
